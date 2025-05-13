@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f68b1f;
+}
+
+.login-btn {
+  background: #f68b1f;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.hero {
+  background: linear-gradient(90deg, #f68b1f 0%, #ffbb33 100%);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background: #fff;
+  color: #f68b1f;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #fef3e7;
+}
+
+.hero-img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.info-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.info-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 30%;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.step h3 {
+  color: #f68b1f;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #ececec;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
